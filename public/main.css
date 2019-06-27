@@ -1,0 +1,14 @@
+body{
+  margin: 0 auto;
+}
+
+
+.red {
+  background-color: red!important;
+  height: 10vh;
+  width: 100vw;
+}
+
+.cute{
+  font-family: 'Comfortaa', cursive;
+}
