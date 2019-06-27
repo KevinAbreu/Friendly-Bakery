@@ -1,5 +1,6 @@
 require "sinatra"
 require "httparty"
+require "actionmailer"
 
 get "/" do
   erb :home
