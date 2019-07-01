@@ -12,3 +12,18 @@ body{
 .cute{
   font-family: 'Comfortaa', cursive;
 }
+
+.topit{
+  position: relative;
+  top: 10px;
+}
+
+.big{
+  width: 100vw;
+  height: 25vh;
+}
+
+.mentex{
+  top: 70%;
+  position: relative;
+}
