@@ -5,8 +5,8 @@ body{
 
 .red {
   background-color: red!important;
-  height: 10vh;
-  width: 100vw;
+  /* height: 10vh;
+  width: 100vw; */
 }
 
 .cute{
@@ -19,11 +19,24 @@ body{
 }
 
 .big{
-  width: 100vw;
-  height: 25vh;
+  width: 25vw;
+  height: 35vh;
 }
 
 .mentex{
   top: 70%;
   position: relative;
+  height: 20%;
+  width: 100%;
+  background-color: white;
+  opacity: 0.5;
+}
+
+.gap{
+margin-top: 1px;
+margin-left: 1px;
+}
+.sweets{
+  background-image: url('https://images-gmi-pmc.edge-generalmills.com/e8198dd2-770b-4c7c-a748-ca7538cf48d0.jpg');
+
 }
