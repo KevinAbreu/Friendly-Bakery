@@ -17,6 +17,15 @@ end
 get "/results" do
   erb :results
 end
+get "/cookie" do
+  erb :cookie
+end
+get "/cake" do
+  erb :cake
+end
+get "/muffin" do
+  erb :muffin
+end
 
 # remember to bundle install when I'm using my own computer
 

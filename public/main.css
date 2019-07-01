@@ -2,6 +2,13 @@ body{
   margin: 0 auto;
 }
 
+.nodec{
+  text-decoration: none;
+  color: black;
+}
+.nodec:hover{
+  color: black;
+}
 
 .red {
   background-color: red!important;
@@ -38,7 +45,7 @@ body{
   opacity: 0.5;
 }
 p{
-  
+
 }
 
 .gap{
