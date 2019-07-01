@@ -1,5 +1,6 @@
 body{
   margin: 0 auto;
+  background-color: #FFECE6;
 }
 
 .nodec{
@@ -55,6 +56,15 @@ margin-left: 1px;
 .sweets{
   background-image: url('https://images-gmi-pmc.edge-generalmills.com/e8198dd2-770b-4c7c-a748-ca7538cf48d0.jpg');
 
+}
+
+.centerit {
+  position: relative;
+  top: 15px;
+}
+
+.bigtext{
+  font-size: 5em;
 }
 
 

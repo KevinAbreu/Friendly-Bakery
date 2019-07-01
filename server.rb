@@ -1,8 +1,21 @@
 require "sinatra"
 require "httparty"
 
+class Cookie
+  attr_accessor :desc, :flav, :price
+  def initialize(desc, flav,price)
+    self.desc = ["Delicious", "Scrumptious", "Crunchy", "Chunky", "Delectable", "Savory","Tasty", "Toothsome", "Lovely"]
+    @flav = flav
+    @price = price
+  end
+end
+
+
+
 
 get "/" do
+  @choco = Cookie.new([8],"ChocoChip",rand(1..5))
+  @white = Cookie.new([8],"WhiteChoco",rand(1..6))
   erb :home
 end
 
@@ -49,17 +62,5 @@ puts "Magus has #{magus.hp} hp"
 
 # desc = ["Delicious", "Scrumptious", "Crunchy", "Chunky", "Delectable", "Savory","Tasty", "Toothsome", "Lovely"]
 
-class Cookie
-  attr_accessor :desc, :flav, :price
-  def initialize(desc, flav,price)
-  self.desc = ["Delicious", "Scrumptious", "Crunchy", "Chunky", "Delectable", "Savory","Tasty", "Toothsome", "Lovely"]
-  @flav = flav
-  @price = price
-  end
-end
 
-
-choco = Cookie.new([8],"Choco chip",5)
-white = Cookie.new([8],"Choco chip",6)
-
-puts "The #{choco.desc.sample} #{choco.flav} cookie for $#{rand(1..choco.price)}"
+# puts "The #{choco.desc.sample} #{choco.flav} cookie for $#{rand(1..choco.price)}"
