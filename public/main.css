@@ -66,7 +66,12 @@ margin-left: 1px;
 .bigtext{
   font-size: 5em;
 }
-
+.invis{
+  opacity: 0;
+}
+.fade-in {
+	animation: fadein 4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
 
 @keyframes scaleup {
   0% {
@@ -82,5 +87,14 @@ margin-left: 1px;
   }
   100% {
     transform: scale(1);
+  }
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }
